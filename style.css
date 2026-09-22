@@ -5,7 +5,13 @@ body {
     background-color: #dfdedc;
 }
 
-/* CSS --> Home */
+.home {
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 h1{
     color: #282b40;
     border-bottom: 3px solid #282b40;
@@ -24,7 +30,9 @@ li{
     padding: 14px;
     text-align: center;
     border: 2px solid transparent;
-    transition: border-color 0.3s ease; 
+    transition: border-color 0.3s ease;
+    display: block;
+    margin: 0 auto;
 }
 
 a{
@@ -35,4 +43,10 @@ a{
 .boton1:hover{
     background-color: #dfdedc;
     border-color: rgba(0, 128, 0, 0.738);
+}
+
+/* Responsive */
+
+@media (max-width: 768px) {
+
 }
