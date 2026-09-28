@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
+/* ---------- css --> home.html ---------- */
+
 .paginaHome {
     font-family: 'Poppins', sans-serif;
     background-color: #dfdedc;
@@ -76,5 +78,59 @@ a{
     color:#dfdedc;
 }
 .botonOferta:hover a{
+    color:#282b40;
+}
+
+/* ---------- css --> detallesDesJr.html ---------- */
+.paginaDesJr{
+    font-family: 'Poppins', sans-serif;
+    background-color: #dfdedc;
+}
+
+.botonesOfertas{
+    display: flex;
+    gap:15px;
+    align-items: center;
+}
+.botonPostularme{
+    background-color: #0052CC;
+    border-radius: 20px 10px;
+    width: 20vh;
+    padding: 14px;
+    text-align: center;
+    border: 2px solid transparent;
+    transition: border-color 0.3s ease;
+}
+
+.botonPostularme:hover{
+    background-color: #dfdedc;
+    border-color: #0052CC;
+}
+
+.botonPostularme a{
+    color:#dfdedc;
+}
+.botonPostularme:hover a{
+    color:#282b40;
+}
+
+.botonAtras{
+    background-color: #646666;
+    border-radius: 20px 10px;
+    width: 20vh;
+    padding: 14px;
+    text-align: center;
+    border: 2px solid transparent;
+    transition: border-color 0.3s ease;
+}
+.botonAtras:hover{
+    background-color: #dfdedc;
+    border-color: #646666;
+}
+
+.botonAtras a{
+    color:#dfdedc;
+}
+.botonAtras:hover a{
     color:#282b40;
 }
