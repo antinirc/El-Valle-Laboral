@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
+/* Responsive */
+
+@media (max-width: 768px) {
+
+}
+
 /* ---------- css --> home.html ---------- */
 
 .paginaHome {
@@ -25,7 +31,7 @@ li{
     color: #282b40;
 }
 
-.boton1{
+.botonVerOfertas{
     background-color: rgba(0, 128, 0, 0.738);
     border-radius: 20px 10px;
     width: 20vh;
@@ -35,22 +41,19 @@ li{
     transition: border-color 0.3s ease;
     display: block;
     margin: 0 auto;
+    color:#dfdedc;
+    text-decoration: none;
 }
 
-a{
+/* a{
     text-decoration: none;
     color: #282b40;
-}
+} */
 
-.boton1:hover{
+.botonVerOfertas:hover{
     background-color: #dfdedc;
     border-color: rgba(0, 128, 0, 0.738);
-}
-
-/* Responsive */
-
-@media (max-width: 768px) {
-
+    color:#282b40;
 }
 
 /* ---------- css --> ofertas.html ---------- */
@@ -64,9 +67,15 @@ a{
     border-radius: 20px 10px;
     width: 20vh;
     padding: 14px;
+    margin-top: 20px;
+    margin-bottom: 35px;
+    margin-left: 25px;
+    display: block;
     text-align: center;
     border: 2px solid transparent;
     transition: border-color 0.3s ease;
+    text-decoration: none;
+    color:#dfdedc;
 }
 
 .botonOferta:hover{
@@ -74,10 +83,36 @@ a{
     border-color: rgba(0, 128, 0, 0.738);
 }
 
-.botonOferta a{
+.botonOferta{
     color:#dfdedc;
 }
-.botonOferta:hover a{
+.botonOferta:hover{
+    color:#282b40;
+}
+
+.volverAinicio{
+    background-color: #646666;
+    border-radius: 20px 10px;
+    width: 20vh;
+    padding: 14px;
+    text-align: center;
+    border: 2px solid transparent;
+    transition: border-color 0.3s ease;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+.volverAinicio:hover{
+    background-color: #dfdedc;
+    border-color: #646666;
+}
+
+.volverAinicio{
+    color:#dfdedc;
+    text-decoration: none;
+}
+.volverAinicio:hover{
     color:#282b40;
 }
 
@@ -107,10 +142,11 @@ a{
     border-color: #0052CC;
 }
 
-.botonPostularme a{
+.botonPostularme{
     color:#dfdedc;
+    text-decoration: none;
 }
-.botonPostularme:hover a{
+.botonPostularme:hover{
     color:#282b40;
 }
 
@@ -128,9 +164,47 @@ a{
     border-color: #646666;
 }
 
-.botonAtras a{
+.botonAtras{
     color:#dfdedc;
+    text-decoration: none;
 }
-.botonAtras:hover a{
+.botonAtras:hover{
     color:#282b40;
+}
+
+/* ---------- css --> simulacion.html ---------- */
+
+.paginaSimulacion {
+    font-family: 'Poppins', sans-serif;
+    background-color: #dfdedc;
+}
+
+.botonConcientizacion{
+    background-color: #0052CC;
+    border-radius: 20px 10px;
+    width: 20vh;
+    padding: 14px;
+    text-align: center;
+    border: 2px solid transparent;
+    transition: border-color 0.3s ease;
+    display: block;
+    margin: 0 auto;
+}
+.botonConcientizacion:hover{
+    background-color: #dfdedc;
+    border-color: #0052CC;
+}
+
+.botonConcientizacion{
+    color:#dfdedc;
+    text-decoration: none;
+}
+.botonConcientizacion:hover{
+    color:#282b40;
+}
+
+/* ---------- css --> simulacion.html ---------- */
+.paginaConcientizacion {
+    font-family: 'Poppins', sans-serif;
+    background-color: #dfdedc;
 }
