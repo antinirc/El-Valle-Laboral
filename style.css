@@ -34,6 +34,27 @@
 nav {
     border-bottom: 3px solid #282b40;
     background-color: #282b40;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menuPc ul{
+    display: flex;
+    gap:20px;
+    list-style: none;
+    margin-right: 30px;
+}
+
+.menuPc a{
+    color:#dfdedc;
+    text-decoration: none;
+}
+
+.menuPc a:hover,
+.menuPc li:hover{
+    color: rgba(0, 128, 0, 0.738);
+    transform: scale(1.10);
 }
 
 .home h1{
