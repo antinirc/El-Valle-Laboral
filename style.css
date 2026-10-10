@@ -11,6 +11,7 @@
 .paginaHome {
     font-family: 'Poppins', sans-serif;
     background-color: #dfdedc;
+    margin: 0;
 }
 
 .home {
@@ -18,8 +19,56 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-left: 10px;
+    margin-top: -20px;
 }
 
+.logo img {
+    width: 240px;
+    height: 85px;
+    margin-left: -30px;
+    margin-top: 7px;
+    object-fit: contain;
+}
+
+nav {
+    border-bottom: 3px solid #282b40;
+    background-color: #282b40;
+}
+
+.home h1{
+    color: #282b40;
+    border-bottom: none;
+}
+
+footer {
+    background-color: #282b40;
+    min-height: 200px;
+    padding: 40px 30px;
+    box-sizing: border-box;
+}
+
+.footerP {
+    color: #dfdedc;
+    margin: 0;
+}
+
+.redes {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    margin: 30px 0 0 15px;
+}
+
+.logoNqn {
+    margin-left: auto;
+}
+
+.logoNqn img {
+    width: 180px;
+    height: 80px;
+    object-fit: contain;
+}
 h1{
     color: #282b40;
     border-bottom: 3px solid #282b40;
@@ -43,6 +92,7 @@ li{
     margin: 0 auto;
     color:#dfdedc;
     text-decoration: none;
+    margin: 20px auto 0;
 }
 
 /* a{
@@ -61,6 +111,18 @@ li{
 .paginaOfertas{
     font-family: 'Poppins', sans-serif;
     background-color: #dfdedc;
+    margin: 0;
+}
+
+.paginaOfertas h1, 
+.paginaOfertas h2{
+    border-bottom: none;
+    justify-content: center;
+    display: flex;
+}
+
+.DesJr {
+    margin-left: 15px;
 }
 .botonOferta{
     background-color:  rgba(0, 128, 0, 0.738);
@@ -98,35 +160,41 @@ li{
     text-align: center;
     border: 2px solid transparent;
     transition: border-color 0.3s ease;
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
+    display: block;
+    margin: 20px 20px 20px auto;
+    text-decoration: none;
+    color:#dfdedc;
 }
 
-.volverAinicio:hover{
+.volverAinicio:hover {
     background-color: #dfdedc;
     border-color: #646666;
 }
 
-.volverAinicio{
-    color:#dfdedc;
-    text-decoration: none;
-}
-.volverAinicio:hover{
-    color:#282b40;
+.volverAinicio:hover {
+    color: #282b40;
 }
 
 /* ---------- css --> detallesDesJr.html ---------- */
 .paginaDesJr{
     font-family: 'Poppins', sans-serif;
     background-color: #dfdedc;
+    margin: 0;
+}
+
+.paginaDesJr h1{
+    border-bottom: none;
+    justify-content: center;
+    display: flex;
 }
 
 .botonesOfertas{
     display: flex;
     gap:15px;
     align-items: center;
+    margin-bottom: 40px;
 }
+
 .botonPostularme{
     background-color: #0052CC;
     border-radius: 20px 10px;
@@ -146,6 +214,7 @@ li{
     color:#dfdedc;
     text-decoration: none;
 }
+
 .botonPostularme:hover{
     color:#282b40;
 }
@@ -177,6 +246,19 @@ li{
 .paginaSimulacion {
     font-family: 'Poppins', sans-serif;
     background-color: #dfdedc;
+    margin: 0;
+}
+
+.simulacion {
+    margin-left: 10px;
+
+}
+
+.simulacion h1,
+.simulacion h2{
+    border-bottom: none;
+    justify-content: center;
+    display: flex;
 }
 
 .botonConcientizacion{
@@ -189,6 +271,7 @@ li{
     transition: border-color 0.3s ease;
     display: block;
     margin: 0 auto;
+    margin-bottom: 30px;
 }
 .botonConcientizacion:hover{
     background-color: #dfdedc;
@@ -207,4 +290,16 @@ li{
 .paginaConcientizacion {
     font-family: 'Poppins', sans-serif;
     background-color: #dfdedc;
+    margin: 0;
+}
+
+.concientizacion h1{ 
+    border-bottom: none;
+    justify-content: center;
+    display: flex;
+}
+
+.concientizacion{
+    margin-left: 15px;
+    margin-bottom: 30px;
 }
