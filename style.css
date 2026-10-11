@@ -1,10 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
-/* Responsive */
-
-@media (max-width: 768px) {
-
-}
 
 /* ---------- css --> home.html ---------- */
 
@@ -57,6 +52,62 @@ nav {
     transform: scale(1.10);
 }
 
+.menuCelular {
+    position: relative;
+}
+
+.menuCelular a {
+    color: #dfdedc;
+    text-decoration: none;
+}
+
+summary {
+    font-size: 16px;
+    cursor: pointer;
+    list-style: none;
+    color: #dfdedc;
+    margin-right: 20px;
+}
+
+summary::-webkit-details-marker {
+    display: none;
+}
+
+.menuCelular ul {
+    position: absolute;
+    top: 100%;
+    right: 20px;
+    background-color: #282b40;
+    list-style: none;
+    padding: 10px 0;
+    margin: 5px 0 0 0;
+    min-width: 150px;
+    z-index: 999;
+    border-radius:5px;
+}
+
+.menuCelular ul li a {
+    display: block;
+    padding: 10px 20px;
+}
+
+.menuPc{
+    display: block;
+}
+.menuCelular{
+    display: none;
+}
+
+/* Menu Responsive */
+@media (max-width: 768px) {
+    .menuPc{
+        display: none;
+    }
+    .menuCelular{
+        display: block;
+    }
+}
+
 .home h1{
     color: #282b40;
     border-bottom: none;
@@ -90,6 +141,7 @@ footer {
     height: 80px;
     object-fit: contain;
 }
+
 h1{
     color: #282b40;
     border-bottom: 3px solid #282b40;
