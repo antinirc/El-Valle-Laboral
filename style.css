@@ -106,6 +106,22 @@ summary::-webkit-details-marker {
     .menuCelular{
         display: block;
     }
+    .redes {
+    flex-wrap: nowrap;
+    margin-left: 0;
+    gap: 8px;
+    justify-content: space-between;
+    }
+
+    .logoNqn {
+        margin-left: 0;
+        max-width: 100%;
+    }
+
+    .logoNqn img {
+        max-width: 100%;
+        width: 100px;
+    }
 }
 
 .home h1{
