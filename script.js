@@ -17,19 +17,19 @@ if (infoNavegador.includes('Edg/')) {
 
 
 // Obteniendo elementos por ID (Sistema)
-const celdaSistema = document.getElementById ("sistema");
+const celdaSistema = document.getElementById ('sistema');
 const infoSistema = navigator.userAgent;
 
-if (infoSistema.includes ("Windows")){
-    celdaSistema.textContent = "Windows";
-} else if(infoSistema.includes ("Android")){
-    celdaSistema.textContent = "Android";
-} else if (infoSistema.includes ("Mac OS")){
-    celdaSistema.textContent = "macOS";
-} else if (infoSistema.includes ("Linux")){
-    celdaSistema.textContent = "Linux";
+if (infoSistema.includes ('Windows')){
+    celdaSistema.textContent = 'Windows';
+} else if(infoSistema.includes ('Androi')){
+    celdaSistema.textContent = 'Android';
+} else if (infoSistema.includes ('Mac OS')){
+    celdaSistema.textContent = 'macOS';
+} else if (infoSistema.includes ('Linux')){
+    celdaSistema.textContent = 'Linux';
 } else{ 
-    celdaSistema.textContent = "Sistema no identificado";
+    celdaSistema.textContent = 'Sistema no identificado';
 }
 
 // Obteniendo elementos por ID (Hora)
