@@ -334,6 +334,25 @@ li{
     color:#282b40;
 }
 
+/* ---------- css --> detallesPerLimpieza.html ---------- */
+
+.PaginaPerLimpieza{
+    font-family: 'Poppins', sans-serif;
+    background-color: #dfdedc;
+    margin: 0;
+}
+
+.PerLimpieza{
+    margin-left: 10px;
+}
+
+.PerLimpieza h1,
+.PerLimpieza h2{
+    border-bottom: none;
+    justify-content: center;
+    display: flex;
+}
+
 /* ---------- css --> simulacion.html ---------- */
 
 .paginaSimulacion {
