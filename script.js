@@ -15,7 +15,6 @@ if (infoNavegador.includes('Edg/')) {
     celdaNavegador.textContent = 'Navegador no identificado';
 }
 
-
 // Obteniendo elementos por ID (Sistema)
 const celdaSistema = document.getElementById ('sistema');
 const infoSistema = navigator.userAgent;
@@ -34,5 +33,4 @@ if (infoSistema.includes ('Windows')){
 
 // Obteniendo elementos por ID (Hora)
 const celdaHora = document.getElementById ("hora");
-
 celdaHora.textContent = new Date().toLocaleString("es-AR");
