@@ -267,6 +267,56 @@ li{
     color: #282b40;
 }
 
+.contenedorOfertas {
+    background-color: transparent; 
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px;                         
+    padding: 20px;
+}
+
+.tarjetaOferta {
+    display: flex;
+    flex-direction: column;
+    border-radius: 40px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+
+.cabeceraOferta {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color:rgba(0, 128, 0, 0.738);
+    padding: 25px 15px;
+}
+
+.cabeceraOferta strong{
+    color:#282b40;
+    font-size: 1.1rem;    
+}
+
+.cuerpoOferta{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.cuerpoOferta .botonOferta{
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+}
+.tarjetaOferta ul{
+    margin: 0 0 20px 0;
+    color:#282b40;
+}
+
+.tarjetaOferta li{
+    margin-bottom: 8px;
+}
+
 /* ---------- css --> detallesDesJr.html ---------- */
 .paginaDesJr{
     font-family: 'Poppins', sans-serif;
