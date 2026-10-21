@@ -216,9 +216,6 @@ li{
     display: flex;
 }
 
-.DesJr {
-    margin-left: 15px;
-}
 .botonOferta{
     background-color:  rgba(0, 128, 0, 0.738);
     border-radius: 20px 10px;
@@ -285,8 +282,9 @@ li{
 
 .DesJr {
     max-width: 100%;
+    margin-left: 15px;
 }
-
+  
 .botonesOfertas{
     display: flex;
     gap:15px;
