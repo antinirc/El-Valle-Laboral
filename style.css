@@ -100,6 +100,13 @@ summary::-webkit-details-marker {
 
 /* Menu Responsive */
 @media (max-width: 768px) {
+    .contenedorOfertas{
+        grid-template-columns: 1fr !important;
+        padding: 10px;
+        gap:15px;
+
+    }
+
     .menuPc{
         display: none;
     }
