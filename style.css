@@ -470,6 +470,24 @@ li{
     display: flex;
 }
 
+/* ---------- css --> concientizacion.html ---------- */
+.paginaConcientizacion {
+    font-family: 'Poppins', sans-serif;
+    background-color: #dfdedc;
+    margin: 0;
+}
+
+.concientizacion h1{ 
+    border-bottom: none;
+    justify-content: center;
+    display: flex;
+}
+
+.concientizacion{
+    margin-left: 15px;
+    margin-bottom: 30px;
+}
+
 .botonConcientizacion{
     background-color: #0052CC;
     border-radius: 20px 10px;
@@ -493,22 +511,4 @@ li{
 }
 .botonConcientizacion:hover{
     color:#282b40;
-}
-
-/* ---------- css --> simulacion.html ---------- */
-.paginaConcientizacion {
-    font-family: 'Poppins', sans-serif;
-    background-color: #dfdedc;
-    margin: 0;
-}
-
-.concientizacion h1{ 
-    border-bottom: none;
-    justify-content: center;
-    display: flex;
-}
-
-.concientizacion{
-    margin-left: 15px;
-    margin-bottom: 30px;
 }
