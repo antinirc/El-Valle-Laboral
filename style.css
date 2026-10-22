@@ -470,6 +470,16 @@ li{
     display: flex;
 }
 
+.tablaResponsive {
+    width: 100%;
+    overflow-x: auto;
+}
+
+.tablaResponsive table {
+    width: 100%;
+    min-width: 650px;
+    border-collapse: collapse;
+}
 /* ---------- css --> concientizacion.html ---------- */
 .paginaConcientizacion {
     font-family: 'Poppins', sans-serif;
