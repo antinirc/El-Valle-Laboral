@@ -407,6 +407,23 @@ li{
     display: flex;
 }
 
+/* ---------- css --> detallesAuxAdministrativo.html ---------- */
+.paginaAuxAdministrativo{
+    font-family: 'Poppins', sans-serif;
+    background-color: #dfdedc;
+    margin: 0;
+}
+
+.AuxAdministrativo{
+    margin-left: 10px;
+}
+
+.AuxAdministrativo h1,
+.AuxAdministrativo h2{
+    border-bottom: none;
+    justify-content: center;
+    display: flex;
+}
 /* ---------- css --> simulacion.html ---------- */
 
 .paginaSimulacion {
