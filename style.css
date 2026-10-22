@@ -424,6 +424,25 @@ li{
     justify-content: center;
     display: flex;
 }
+
+/* ---------- css --> detallesAuxAdministrativo.html ---------- */
+.paginaAyudanteMantenimiento{
+    font-family: 'Poppins', sans-serif;
+    background-color: #dfdedc;
+    margin: 0;
+}
+
+.ayuMant{
+    margin-left: 10px;
+}
+
+.ayuMant h1,
+.ayuMant h2{
+    border-bottom: none;
+    justify-content: center;
+    display: flex;
+}
+
 /* ---------- css --> simulacion.html ---------- */
 
 .paginaSimulacion {
