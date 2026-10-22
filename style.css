@@ -209,11 +209,18 @@ li{
     margin: 0;
 }
 
-.paginaOfertas h1, 
-.paginaOfertas h2{
+.paginaOfertas h1{
     border-bottom: none;
     justify-content: center;
     display: flex;
+}
+
+.paginaOfertas h2 {
+    display: block;
+    text-align: center;
+    margin: 20px 10px;
+    max-width: 100%;
+    box-sizing: border-box;
 }
 
 .botonOferta{
