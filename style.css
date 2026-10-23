@@ -537,3 +537,9 @@ li{
 .botonConcientizacion:hover{
     color:#282b40;
 }
+
+/* Bloqueando rebotes en 'X' - 'Y' */
+html, body {
+    overscroll-behavior-x: none;
+    overscroll-behavior-y: none;
+}
