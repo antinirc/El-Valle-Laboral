@@ -21,7 +21,7 @@ const infoSistema = navigator.userAgent;
 
 if (infoSistema.includes ('Windows')){
     celdaSistema.textContent = 'Windows';
-} else if(infoSistema.includes ('Androi')){
+} else if(infoSistema.includes ('Android')){
     celdaSistema.textContent = 'Android';
 } else if (infoSistema.includes ('Mac OS')){
     celdaSistema.textContent = 'macOS';
