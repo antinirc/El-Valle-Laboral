@@ -459,8 +459,9 @@ li{
 }
 
 .simulacion {
-    margin-left: 10px;
-
+    padding-left: 10px;
+    padding-right: 10px;
+    box-sizing: border-box;
 }
 
 .simulacion h1,
@@ -473,6 +474,8 @@ li{
 .tablaResponsive {
     width: 100%;
     overflow-x: auto;
+    box-sizing: border-box;
+    margin: 0;
 }
 
 .tablaResponsive table {
@@ -480,6 +483,18 @@ li{
     min-width: 650px;
     border-collapse: collapse;
 }
+
+.tablaResponsive th{
+    background-color: rgba(255, 255, 0, 0.77);
+    padding: 10px;
+}
+
+.tablaResponsive td{
+    background-color: #6466663f;
+    text-align: center;
+    padding: 10px;
+}
+
 /* ---------- css --> concientizacion.html ---------- */
 .paginaConcientizacion {
     font-family: 'Poppins', sans-serif;
